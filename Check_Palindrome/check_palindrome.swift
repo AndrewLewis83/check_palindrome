@@ -27,11 +27,21 @@ class Check_Palindrome{
 		if firstString.count != secondString.count{
 			return palindrome
 		}
+        
+        var reverseCounter = firstString.count
 	
 		for characters in firstString.indices{
-			
+            
+            let index = secondString.index(secondString.startIndex, offsetBy: reverseCounter)
+            
+            if firstString[characters] != secondString[index]{
+                return palindrome
+            }
+            
+            reverseCounter -= 1
 		}
-	
+        
+        palindrome = true
 		return palindrome
 	}
 }
