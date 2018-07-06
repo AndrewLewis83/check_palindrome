@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+let CP = Check_Palindrome()
+
+CP.startingPoint()
 
