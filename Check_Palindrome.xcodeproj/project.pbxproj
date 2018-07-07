@@ -10,6 +10,7 @@
 		A160DE1C20EFB86A006085DC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160DE1B20EFB86A006085DC /* main.swift */; };
 		A160DE2420EFB8AA006085DC /* IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160DE2320EFB8AA006085DC /* IO.swift */; };
 		A160DE2620EFB8C4006085DC /* check_palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160DE2520EFB8C3006085DC /* check_palindrome.swift */; };
+		A1F6D67520F02D60009A3B2F /* strings_ajl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F6D67420F02D60009A3B2F /* strings_ajl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		A160DE1B20EFB86A006085DC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A160DE2320EFB8AA006085DC /* IO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IO.swift; sourceTree = "<group>"; };
 		A160DE2520EFB8C3006085DC /* check_palindrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = check_palindrome.swift; sourceTree = "<group>"; };
+		A1F6D67420F02D60009A3B2F /* strings_ajl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strings_ajl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				A160DE1B20EFB86A006085DC /* main.swift */,
 				A160DE2520EFB8C3006085DC /* check_palindrome.swift */,
 				A160DE2320EFB8AA006085DC /* IO.swift */,
+				A1F6D67420F02D60009A3B2F /* strings_ajl.swift */,
 			);
 			path = Check_Palindrome;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F6D67520F02D60009A3B2F /* strings_ajl.swift in Sources */,
 				A160DE2620EFB8C4006085DC /* check_palindrome.swift in Sources */,
 				A160DE1C20EFB86A006085DC /* main.swift in Sources */,
 				A160DE2420EFB8AA006085DC /* IO.swift in Sources */,

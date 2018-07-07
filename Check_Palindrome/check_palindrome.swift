@@ -1,6 +1,7 @@
 class Check_Palindrome{
 
 	let inputOutput = IO()
+    let stringClass = strings_ajl()
 
 	func startingPoint(){
 	
@@ -32,9 +33,7 @@ class Check_Palindrome{
 	
 		for characters in firstString.indices{
             
-            let index = secondString.index(secondString.startIndex, offsetBy: reverseCounter)
-            
-            if firstString[characters] != secondString[index]{
+            if firstString[characters] != stringClass.character(stringIndex: reverseCounter, stringInput: secondString){
                 return palindrome
             }
             
@@ -45,3 +44,5 @@ class Check_Palindrome{
 		return palindrome
 	}
 }
+
+
